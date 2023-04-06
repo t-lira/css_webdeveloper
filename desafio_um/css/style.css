@@ -2,146 +2,263 @@
 @import url(reset.css);
 
 /*GENERAL STYLE*/
-body{
+body {
   background-color: black;
 }
 
-h1{
-  color: var(--colorOne);
-  font-size: 2.5rem;
-  font-weight: 900;
+h1 {
+  font-size: 1.4rem;
+  font-weight: bold;
   text-transform: uppercase;
+  text-align: center;
+
+  color: transparent;
+  background: -webkit-linear-gradient(#33A8DB, #1472B7);
+  background-clip: text;
+  -webkit-background-clip: text;
+
 }
 
-h2{
-  font-size: 2rem;
+h2 {
+  font-size: 1.5rem;
   color: var(--colorOne);
   font-weight: bold;
   letter-spacing: 4px;
   text-transform: uppercase;
   margin-top: 24px;
+  text-align: center;
 }
 
 p {
-  margin: 24px auto;
+  margin: 15px 10px;
   color: white;
-  font-size: 1.25rem;
-  width: 1000px;
-}
-
-section{
-  margin: 100px auto;
+  font-size: 1.2rem;
+  text-align: justify;
+  line-height: 2rem;
+  width: 90%;
 }
 
 /*HEADER*/
-.banner{
-  background: url(/desafio_um/assets/images/banner.png);
-  background-color: #2d4f5cd3;
-  background-blend-mode:multiply;
+
+.banner {
+  background:linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(../assets/images/banner.png);
   background-repeat: no-repeat;
   background-size: cover;
 
-  min-height: 70vh;
-  padding-top: 50px;
+  min-height: 80vh;
+  padding: 3%;
   border-bottom: 1px solid var(--colorOne);
 }
 
-.banner .banner-content{
+.banner .banner-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   align-items: center;
-   
 }
 
-.banner .logo{
-  background-color: rgba(0, 0, 0, .2);
-  height: 260px;
-  width: 260px;
+.banner .logo {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
-  margin: 16px auto 16px;
-  padding: 20px 10px 5px;
+  margin-bottom: 5%;
 }
 
-.banner button{
-  border: 1px solid var(--colorOne);;
+.banner .logo img {
+  width: 100%;
+  margin: 5% auto 5%;
+}
+
+.banner button {
+  border: 1px solid var(--colorOne);
   padding: 16px 32px;
   background-color: transparent;
   color: var(--colorOne);
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1rem;
-  letter-spacing: 4px;
-}
-/*SECTION course-content*/
-#course-content {
-  min-width: 80vh;
-  text-align: center; 
+  letter-spacing: 2px;
 }
 
-#course-content .modules-list {
-  margin: 24px 0;
+/*SECTION course-content*/
+
+#course-content {
+  min-height: 80vw;
+  padding: 3%;
 }
 
 #course-content .modules-list .module {
   color: white;
-  text-align: left;
-
-  width: 530px;
-  margin: 0px auto 24px;
+  text-align: center;
   border: 1px solid var(--colorOne);
   background-color: #252525;
-  padding: 15px;
+  padding: 20px 5px;
   border-radius: 100px;
-  box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
-}
+  box-shadow: inset -5px 6px 8px rgba(0, 0, 0, 0.7);
+  margin-bottom: 10px;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
 #course-content .modules-list .module span {
   color: var(--colorOne);
 }
 
 /*SECTION professional-challenges*/
-#transform-world{
-  background-image: url(/desafio_um/assets/images/woman-code.png);
-  min-height: 70vh;
+
+#transform-world {
+  background-image: url(../assets/images/woman-code.png);
+  min-height: 50vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-position: center;
   border-top: 1px solid var(--colorOne);
   border-bottom: 1px solid var(--colorOne);
-  padding: 200px;
+  background-attachment: fixed;
 }
 
 #transform-world p {
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 1.9rem;
   text-transform: lowercase;
-  max-width: 250px;
   text-shadow: 3px 2px var(--colorOne);
-  margin: 0;
+  margin-top: 30%;
+  text-align: center;
 }
 
 #professional-challenges {
-  text-align: center;
+  padding: 3%;
+}
+
+#professional-challenges img {
   width: 100%;
 }
 
 /*FOOTER*/
-footer {
-  padding: 60px 0;
-  text-align: center;
-  background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
-  border-top: 1px solid #33A8DB80;
 
+footer {
+  padding: 15% 3%;
+  text-align: center;
+  background-image: linear-gradient(
+    rgba(50, 168, 219, 0),
+    rgba(50, 168, 219, 0.2)
+  );
+  border-top: 1px solid var(--colorOne);
 }
 
 footer .dio-logo {
-  width: 300px;
+  width: 100%;
+}
+
+footer p {
+  font-size: 1rem;
+  text-align: center;
 }
 
 footer a {
   color: var(--colorOne);
   font-weight: bold;
-  text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+  /*GENERAL STYLE*/
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    margin: 24px auto;
+    color: white;
+    font-size: 1.25rem;
+    width: 80%;
+    text-align: center;
+  }
+
+  section {
+    margin: 100px auto;
+  }
+
+  /*HEADER*/
+  .banner {
+    padding-top: 50px;
+    border-bottom: 1px solid var(--colorOne);
+  }
+
+  .banner .logo {
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    margin: 16px auto 16px;
+    padding: 20px 10px 5px;
+  }
+
+  .banner button {
+    letter-spacing: 4px;
+  }
+
+  /*SECTION course-content*/
+   #course-content {
+    min-height: 40vh;
+   }
+  #course-content .modules-list {
+    margin: 24px 0;
+  }
+
+  #course-content .modules-list .module {
+    text-align: left;
+    width: 530px;
+    margin: 0px auto 24px;
+    padding: 15px;
+    flex-direction: row; 
+  }
+  .module span{
+    text-indent: 2rem;
+  }
+
+  /*SECTION professional-challenges*/
+  #transform-world {
+    min-height: 70vh;
+    padding: 200px;
+  }
+
+  #transform-world p {
+    font-size: 2.5rem;
+    max-width: 250px;
+    margin: 0;
+    text-align: left;
+  }
+  #professional-challenges{
+    text-align: center;
+  }
+
+  #professional-challenges img{
+    width: 60%;
+  }
+
+  /*FOOTER*/
+  footer {
+    padding: 60px 0;
+  }
+  footer .dio-logo {
+    width: 300px;
+  }
+  footer p {
+    font-size: 1rem;
+    margin: 0 auto;  
+  }
+
+  footer a {
+    color: var(--colorOne);
+    font-weight: bold;
+    text-decoration: none;
+  }
 }
