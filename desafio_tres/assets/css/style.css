@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+main{
+  display: flex;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  padding: 0px 24px;
+  height: 56px;
+  border-bottom: 1px solid rgba(141, 139, 139, 0.425);
+}
+
+.header-left img{
+  width: 90px;
+  height: 20px;
+  margin-left: 20px;
+  
+}
+
+.header-center img{
+  width: 404px;
+  height: 40px;
+}
+
+.img-perfil{
+  width: 26px;
+}
+
+.header-right img {
+  margin-right: 15px;
+}
+
+.section-home{
+  padding: 28px 40px;
+}
+
+.btn-sign-up{
+  background-color: #CC0000;
+  width: 159px;
+  height: 40px;
+  border-radius: 2px;
+  border: none;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.video-channel img{
+  width: 800px;
+  height: 537px;
+}
+
+.video-channel h2{
+  width: 871px;
+  height: 27px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #000000;
+}
+
+.channel-description{
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.txt-channel-description h3{
+  width: 391px;
+  height: 16px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #000000;
+  margin-top: 10px;
+}
+
+.txt-channel-description p{
+  width: 510px;
+  height: 64px;
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 0.9rem;
+  color: #515151;  
+  margin-top: 13px;
+}
+
+/*SECTION RIGHT*/
+
+.section-right{
+  padding: 28px 0px;
+}
+
+.rigth-content{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.rigth-content img {
+  width: 140px;
+  height: 80px;
+}
+
+.rigth-content-txt{
+  display: flex;
+  flex-direction: column;
+}
+
+.rigth-content-txt h5{
+  font-size: 0.8rem;
+  font-weight: 600;
+  width: 160px;
+  height: 32px;
+}
+
+.rigth-content-txt h6{
+  width: 110px;
+  height: 14px;
+  font-weight: 400;
+  font-size: 0.7rem;
+  color: #515151;
+  margin-top: 5px;
+}
+
+.rigth-content-txt span{
+  width: 110px;
+  height: 28px;
+  font-weight: 400;
+  font-size: 0.7rem;
+  color: #515151;
+  margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
