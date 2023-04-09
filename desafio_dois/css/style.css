@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+@import url(/desafio_dois/css/reset.css);
+@import url(/desafio_dois/css/navigation.css);
+
+main{
+  padding: 20px auto 20px;
+}
+
+h1{
+  width: 278px;
+  height: 64px;
+  font-size: 1.9rem;
+  letter-spacing: 4px;
+  color: #FFF;
+  font-family: 'Luckiest Guy', cursive; 
+}
+
+h2 {
+  width: 300px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #23272A;
+  line-height: 2rem;
+}
+
+
+P{
+  color: #23272A;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.6rem; 
+  margin-top: 24px;
+}
+
+img{
+  width: 100%;
+}
+
+
+
+/*SECTION HOME-TOP*/
+.section-home-top{
+  background-color: #4763ED;
+  min-height: 90vh; 
+}
+
+.txt-section-home-top{
+  padding: 56px 24px;
+}
+
+.txt-section-home-top p{
+  color: #FFF;
+}
+
+.btn-section-home-top button{
+  border-radius: 28px;
+  padding: 16px 32px;
+  font-size: 1rem;
+  width: 100%;
+  border: none; 
+  margin-top: 15px; 
+}
+
+.btn-color-black{
+  background-color: #23272A;
+  color: #FFF;
+}
+
+.img-display-none{
+  display: none;
+}
+
+.img-home-top img{
+ margin-left:-80px;
+}
+
+/*ARTICLE HOME-TOP*/
+
+.d-information-section{
+ padding: 55px 24px;
+}
+
+.d-information-img{
+  margin-top: 20px;
+
+}
+.d-information-more{
+  background-color: #F6F6F6;
+  
+}
+
+
+.d-more-information{
+  padding: 70px 24px 60px;
+  background-color: #F6F6F6;
+}
+  
+
+/*ARTICLE HOME-BOTTOM*/
+
+.section-home-bottom{
+  padding: 70px 24px 50px;
+}
+
+
+
+
+
+.div-home-botton{
+  background-color:#F6F6F6;
+  background-position: b; 
+    
+}
+
+.section-more-home-bottom{
+  padding: 40px 24px 120px;
+  background-color: #F6F6F6;
+
+}
+
+.download-linux{
+  padding: 10px 24px 40px;
+  background-color: #F6F6F6;
+
+}
+h3{
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+.s-more-img-home-bottom{
+  margin-top: 25px;
+}
+
+.btn-download-linux{
+  padding: 16px 30px;
+  font-size: 1.2rem;
+  width: 100%;
+  border-radius: 40px;
+  background-color: #5865f2;
+  border: none;
+  color: #FFF;
+  margin-top: 35px;
+  
+
+}

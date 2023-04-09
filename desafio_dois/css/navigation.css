@@ -1,0 +1,25 @@
+header{
+  background-color: #4763ED;  
+  
+}
+
+header nav{
+  display: flex;
+  align-self: center;
+  align-content: center;
+  justify-content: space-around;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-header{
+  width: 120px;
+  height: 30px;
+  padding: 7px 16px;
+  font-size: 0.9rem;
+  border-radius: 40px;
+}
